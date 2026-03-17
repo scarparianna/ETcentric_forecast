@@ -74,7 +74,7 @@ else:
 output_dir = "/ligo/home/ligo.org/arianna.scarpa/fisher_scripts/results"
 os.makedirs(output_dir, exist_ok=True)
 
-with h5py.File("BBH_injections.h5", "r") as f:
+with h5py.File("BBH_injections_ari.h5", "r") as f:
     total_N_events = len(f["chirp_mass"])
     per_job = total_N_events // total_jobs
     
