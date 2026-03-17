@@ -17,4 +17,4 @@ notification    = never
 queue 100
 ```
 
-Then, we analize the gwfast runs with `post_fisher_analysis.ipynb` and finally we check the results with `bibly_runs_best_events.py`
+Then, we analyze the gwfast runs with `post_fisher_analysis.ipynb` and finally we check the results with `bilby_runs_best_events.py`
